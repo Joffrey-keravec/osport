@@ -1,0 +1,99 @@
+
+
+.articlePageContent {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    width: 90%;
+    background-color: #454c54;
+    border: 1px solid #f5e89b;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.paragrapheArt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.image-1 {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+    padding: 2px;
+    float: left;
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.paraArt {
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.categorieArt {
+
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+    left: 260px;
+    border-radius: 20px;
+    width: 70px;
+    color: #f5e89b;
+    border: 1px solid;
+    height: 20px;
+
+}
+
+@media screen and (min-width : 400px) {
+   
+
+    .containerArt {
+        
+        width: 80%;
+        display: flex;
+    }
+
+    .articlePageContent {
+
+        display: flex;
+        min-height: 300px;
+        width: 100%;
+        background-color: #454c54;
+        border: 1px solid #f5e89b;
+        border-radius: 15px;
+        margin: 20px;
+        opacity: 0.9;
+    }
+
+    .paraArt {
+        font-size: 1.8rem;
+    }
+
+    .image-1 {
+        height: 50vh;
+        width: 70%;
+        object-fit: cover;   
+    }
+
+    .titleArt {
+        margin: 0;
+    }
+
+    .categorieArt {
+        height: 38px;
+        top: -42px;
+        left: 1134px;
+        align-items: center;
+    }   
+}

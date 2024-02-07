@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: oswald;
+    src: url(../src/assets/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: black;
+}
+
+
+body {
+    background: url(../../../src/assets/photo/younes/accueil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    font-family: oswald;
+    color: white;
+}
+
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    min-height: 100vh;
+
+}

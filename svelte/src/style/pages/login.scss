@@ -1,0 +1,79 @@
+
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 40vh;
+    width: 90%;
+    border: 2px solid #f5e89b;
+    border-radius: 15px;
+    margin-top: 50px;
+    background-color: #454c54;
+    opacity: 0.9;
+}
+
+.LoginForm {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.LoginForm input {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.mail-mdp {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+input {
+    height: 40px;
+    border-radius: 15px;
+    border: 2px solid #f5e89b;
+    background-color: #454c54;
+}
+
+::placeholder {
+    padding-left: 10px;
+    color: white;
+}
+
+button {
+    width: 50%;
+    margin: auto;
+    height: 40px;
+    border-radius: 15px;
+    margin: 0;
+    border: 2px solid #f5e89b;
+    background-color: #1F87BD;
+    color: white;
+    margin-left: 50%;
+    translate: -50%;
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (min-width : 400px) {
+    
+
+
+    form {
+        margin: auto;
+        width: 27%;
+        height: 48vh;
+    }
+
+  
+    
+}

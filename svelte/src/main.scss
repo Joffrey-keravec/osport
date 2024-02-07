@@ -1,0 +1,22 @@
+
+
+
+
+//layouts
+@use "./style/layouts/header.scss";
+@use "./style/layouts/mainContainer.scss";
+@use "./style/layouts/footer.scss";
+
+
+//pages
+@use "./style/pages/home.scss";
+@use "./style/pages/news.scss";
+@use "./style/pages/about.scss";
+@use "./style/pages/register.scss";
+@use "./style/pages/login.scss";
+@use "./style/pages/article.scss";
+@use "./style/pages/categories.scss";
+
+
+
+

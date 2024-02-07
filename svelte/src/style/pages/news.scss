@@ -1,0 +1,375 @@
+                             
+                               
+
+
+
+                               
+
+                               /*---------- contenue de la page ---------------*/
+
+
+
+
+                               .main-article {
+                                   background-color: #454c54;
+                                   border: solid 2px #f5e89b;
+                                   border-radius: 15px;
+                                   box-shadow: #000 0px 5px 15px;
+                                   min-height: 20vh;
+
+                                    width: 90%;
+                                   margin-top: 25px;
+                                   display: flex;
+                               }
+                              
+
+
+                               .SecondaryArticles {
+                                   display: flex;
+                                   flex-direction: column;                                                                   
+                                   justify-content: space-around;
+                                   align-items: center;
+                                   padding-top: 15px;
+                               }
+
+                               .articlesNews {
+                                    display: flex;
+                                   background-color: #454c54;
+                                   border: solid 2px #f5e89b;
+                                   box-shadow: #000 0px 5px 15px;
+                                   border-radius: 15px;
+                                   width: 93%;
+                                   margin-top: 10%;
+                               }
+
+                              
+
+                               .bottom {
+                                   display: flex;
+                                   margin-bottom: 20px;
+                               }
+
+                               .articles h2 {
+                                   text-align: center;
+                                   font-size: 20px;
+                                   font-weight: bold;
+                               }
+
+                               /* ---Main article---*/
+
+                               .main-article h2 {
+                                   text-align: center;
+                                   font-size: 20px;
+                                   font-weight: bold;
+                                   color: #f5e89b;
+                                   margin-bottom: 7px;
+                               }
+
+
+                               .ImgMainArt {
+                                   width: 40%;
+                                   object-fit: cover;
+                                   border-radius: 15px 0 0 15px;
+                               }
+
+                               .ContentMainArt {
+                                   padding: 9px;
+                                   display: flex;
+                                   flex-wrap: wrap;
+                               }
+
+                               .ContentMainArt p {
+                                   color: white;
+                                   font-size: 10px;
+                               }
+
+                               .linkNews {
+                                   text-decoration: none;
+                                   color: #f5e89b;
+                                   font-size: 12px;
+                                   margin-top: 4px;
+                               }
+                               .main-article .categorie {
+                                height: 20px;
+                                width:100px ;  
+                                top: 7px;
+                                left: 70px;
+                                align-items: center;
+                                font-weight: 900;
+                                font-size: 10px;
+                            }
+
+                               /* --- secondary articles ---*/
+                                  .containerSecondArt {
+                                    flex-wrap: wrap;
+                                    display: flex;
+                                    justify-content:space-around ;
+                                    align-items: center;
+                                  
+                                }
+
+                               .ImgSecondaryArt {
+                                   width: 40%;
+                                   object-fit: cover;
+                                   border-radius: 15px 0 0 15px;
+                               }
+
+                               .ContentSecondaryArt {
+                                   padding: 7px;
+                                   display: flex;
+                                   flex-wrap: wrap;
+                               }
+
+                               .ContentSecondaryArt p {
+                                   font-size: 9px;
+                                   color: white;
+                               }
+
+                               .ContentSecondaryArt a {
+                                   text-decoration: none;
+                                   color: #f5e89b;                                   
+                                   margin-top: 4px;
+                               }
+
+                               .ContentSecondaryArt h2 {
+                                   font-size: 10px;
+                                   color: #f5e89b;
+                                   margin-bottom: 6px;
+                               }
+                               .main-article .categorie {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                position: relative;
+                                top: 9px;
+                                left: 45px;
+                                border-radius: 20px;
+                                width: 80px;
+                                color: #f5e89b;
+                                border: 1px solid;
+                                height: 20px;
+                                width: 90px;
+                            }
+                            .catégorie {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                position: relative;
+                                top: 9px;
+                                left: 45px;
+                                border-radius: 20px;
+                                width: 80px;
+                                color: #f5e89b;
+                                border: 1px solid;
+                                height: 20px;
+                                width: 90px;
+                            }
+                               
+                          
+
+                            // -------- couleur des tags par categorie
+                            .categorieNews {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                position: relative;
+                                top: -2px;
+                                left: 109px;
+                                border-radius: 20px;
+                                width: 80px;
+                                color: #f5e89b;
+                                border: 1px solid;
+                                height: 24px;
+                                font-size: 11px;
+                            }
+                            .categorieNewsMain {
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                position: relative;
+                                top: 0px;
+                                left: 90px;
+                                border-radius: 20px;
+                                width: 80px;
+                                color: #f5e89b;
+                                border: 1px solid;
+                                height: 32px;
+                                font-size: 15px;
+                            }
+
+                            .foot {
+                                background-color: green;
+                            }
+                            
+                            .auto {
+                                background-color: gray;
+                            }
+                            
+                            .nautique {
+                                background-color: lightskyblue;
+                            }
+                            
+                            .general {
+                                background-color: #7e2aec;
+                            }
+                            
+
+
+
+                               
+
+
+
+                               /* ---- Media queries version Desktop ----- */
+
+
+                               @media screen and (min-width: 600px) and (max-width: 2568px) {
+
+                               
+
+                                
+                            
+                                   /* --- Main content --- */
+                                   .main-article {
+                                       margin-top: 100px;
+                                       border-radius: 18px;
+                                       margin-bottom: 50px;
+                                       height: 35vh;
+                                       width: 75%;
+                                   }
+                                  
+                                   .SecondaryArticles {
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    flex-direction: row;
+                                    width: 75%;
+                                }
+
+                                .articlesNews {
+                                    display: flex;
+                                    background-color: #454c54;
+                                    border: solid 2px #f5e89b;
+                                    box-shadow: #000 0px 5px 15px;
+                                    border-radius: 15px;
+                                    width: 45%;
+                                    height: 39vh;
+                                    margin: 23px 10px 35px;
+                                }
+
+                                .containerSecondArt {
+                                    flex-wrap: wrap;
+                                    display: flex;
+                                    justify-content:space-around ;
+                                    align-items: center;
+                                  
+                                }
+
+                                   .ContentMainArt {
+                                       padding: 40px;
+
+                                   }
+                                   .ImgMainArt {
+                                    border-radius: 15px 0 0 15px;
+
+                                }
+                                .ImgSecondaryArt {
+                                    border-radius: 15px 0 0 15px;
+                                    width: 40%;
+
+                                }
+
+                                   .ContentMainArt P {
+                                       font-size: 20px;
+                                   }
+
+                                   .ContentMainArt h2 {
+                                       font-size: 40px;
+                                       margin-bottom: 23px;
+                                   }
+
+
+                                #mainArtFooter {
+                                    width: 89%;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                   }
+                                
+                                #secondaryArtFooter {
+                                     width: 62%;
+                                    display: flex;
+                                    flex-direction: row;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                }   
+
+
+                                   .ContentSecondaryArt p {
+                                       font-size: 20px;
+                                       padding-left: 10px;
+                                   }
+
+                                   .ContentSecondaryArt h2 {
+                                       font-size: 25px;
+                                       margin-bottom: 20px;
+                                       padding-left: 10px;
+                                   }
+
+                                   
+
+                                   .linkNews {
+                                       text-decoration: none;
+                                       color: #f5e89b;
+                                       font-size: 18px;
+                                       margin-top: 20px;
+                                       padding-left: 10px;
+                                   }
+
+                                   .ContentMainArt a {
+                                       text-decoration: none;
+                                       color: #f5e89b;
+                                       font-size: 20px;
+                                       margin-top: 30px;
+                                   }
+                                   .ContentMainArt a:hover {
+                                    color: #1F87BD;
+
+                                   
+                                }
+                                .ContentSecondaryArt a:hover {
+                                    color: #1F87BD;
+
+                                  
+                                }
+
+                                .main-article .categorie {
+                                    height: 35px;
+                                    width:120px ;  
+                                    top: 45px;
+                                    left: 850px;
+                                    align-items: center;
+                                    font-weight: 900;
+                                    font-size: small;
+                                }
+                                .catégorie {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    position: relative;
+                                    top: 30px;
+                                    left: 190px;
+                                    border-radius: 20px;
+                                    width: 80px;
+                                    color: #f5e89b;
+                                    border: 1px solid;
+                                    height: 30px;
+                                    width: 110px;
+                                    font-size: small;
+                                }
+                             
+                             
+
+                                   
+                               }
+                               
